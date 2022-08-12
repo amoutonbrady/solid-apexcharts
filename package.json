@@ -1,10 +1,16 @@
 {
   "version": "0.0.1",
-  "name": "solid-apexcharts",
+  "name": "@amoutonbrady/solid-apexcharts",
   "description": "Solid wrapper for ApexCharts",
   "license": "MIT",
   "author": "Alexandre Mouton-Brady <amoutonbrady@gmail.com>",
   "contributors": [],
+  "private": false,
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amoutonbrady/solid-apexcharts.git"
@@ -13,8 +19,6 @@
   "bugs": {
     "url": "https://github.com/amoutonbrady/solid-apexcharts/issues"
   },
-  "private": false,
-  "sideEffects": false,
   "type": "module",
   "files": [
     "dist"
